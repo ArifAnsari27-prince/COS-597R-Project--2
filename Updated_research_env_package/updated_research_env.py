@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import numpy as np
-import gymnasium as gym
+import gym as gym
 from typing import Tuple, Optional, Dict, Any, List
 
 try:

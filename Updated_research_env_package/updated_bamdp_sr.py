@@ -274,7 +274,7 @@ class BayesAdaptiveSRAgent:
 
             trans_logits = self.transition_model(
                 torch.tensor([state], device=device),
-                action.unsqueeze(0),
+                action,
                 z,
             )
 
